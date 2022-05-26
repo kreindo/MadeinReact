@@ -6,8 +6,8 @@ import Papercut from './PaperCut';
 
 function Content() {
   return (
-    <Container maxWidth="md">
-      <Grid container spacing={1}>
+    <Container sx={{ mt: '30px' }} maxWidth="md">
+      <Grid container spacing={2}>
         <Papercut />
         <Papercut />
         <Papercut />
