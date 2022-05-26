@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import ChangeHistoryIcon from '@mui/icons-material/ChangeHistory';
+import CodeIcon from '@mui/icons-material/Code';
 
 const pages = ['My Work', 'Blog', 'Contact'];
 
@@ -28,7 +28,7 @@ function ResponsiveAppBar() {
     <AppBar sx={{ backgroundColor: '#132939' }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <ChangeHistoryIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <CodeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -83,7 +83,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <ChangeHistoryIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <CodeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -143,6 +143,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box> */}
+
         </Toolbar>
       </Container>
     </AppBar>
